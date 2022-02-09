@@ -1,0 +1,9 @@
+{
+  "env": {
+    "HASHSECRET": "fgdfgdfgldfkgjkeer54245465ykdfglkdfglkjdfkgtjl5655465ybgkjcdlgk",
+    "USER": "user1@mcarthurs.com",
+    "PASSWORD": "mcarthur1",
+    "STARTPORT": 3000,
+    "TOKENEXPIRATION": "30m"
+  }
+}
