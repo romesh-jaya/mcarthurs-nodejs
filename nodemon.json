@@ -1,9 +1,13 @@
 {
   "env": {
-    "HASHSECRET": "fgdfgdfgldfkgjkeer54245465ykdfglkdfglkjdfkgtjl5655465ybgkjcdlgk",
+    "HASHSECRET": "<YOUR SECRET HERE>",
     "USER": "user1@mcarthurs.com",
     "PASSWORD": "mcarthur1",
-    "STARTPORT": 3000,
-    "TOKENEXPIRATION": "30m"
+    "STARTPORT": 5000,
+    "TOKENEXPIRATION": "30m",
+    "GRAPHCMS_URL": "https://api-ap-south-1.graphcms.com/v2/ckz4ypo5v0i0z01xnbt32akqk/master",
+    "GRAPHCMS_TOKEN": "<YOUR TOKEN HERE>",
+    "SANITY_TOKEN": "<YOUR TOKEN HERE>",
+    "SANITY_URL": "https://64f59sq1.apicdn.sanity.io/v1/data"
   }
 }
