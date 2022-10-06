@@ -17,6 +17,8 @@ if (process.env.NODE_ENV === "production") {
 }
 // ----------------------------------------------------------------------
 
+console.log("End Username: ", process.env.USER);
+
 const bodyParser = require("body-parser");
 const cors = corsImport({ origin: true });
 const app: Application = express();
