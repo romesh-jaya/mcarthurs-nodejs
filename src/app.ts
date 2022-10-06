@@ -7,6 +7,15 @@ import {
   getRequest as getRequestSanity,
 } from "./sanity";
 import { postRequest as postRequestGraphCMS } from "./graphcms";
+import dotenv from "dotenv";
+
+// ----------------------------------------------------------------------
+// Run this first to provide the required config to other library imports
+if (process.env.NODE_ENV === "production") {
+  console.log("Loading dotenv variables");
+  dotenv.config();
+}
+// ----------------------------------------------------------------------
 
 const bodyParser = require("body-parser");
 const cors = corsImport({ origin: true });
