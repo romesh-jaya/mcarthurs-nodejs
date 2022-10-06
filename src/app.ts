@@ -13,7 +13,7 @@ import dotenv from "dotenv";
 // Run this first to provide the required config to other library imports
 if (process.env.NODE_ENV === "production") {
   console.log("Loading dotenv variables");
-  dotenv.config();
+  dotenv.config({ path: "../.env" });
 }
 // ----------------------------------------------------------------------
 
